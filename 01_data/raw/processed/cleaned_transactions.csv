@@ -1,0 +1,31 @@
+transaction_id,transaction_date_clean,transaction_date,account_manager,merchant_name_clean,merchant_name,merchant_id,merchant_category,default_region,high_value_flag,raw_amount_clean,raw_amount,currency,status_clean,status,high_risk_flag,risk_score_clean,risk_score,gateway_region_clean,gateway_region,user_id,payment_method
+T001,01-03-2026,01-03-2026,Aisha Khan,Alpha Mart, alpha mart ,M001,Grocery,APAC,0,4998,420000,INR,Captured,captured,0,62,score:62,APAC,APAC,U001,UPI
+T002,01-03-2026,01-03-2026,Aisha Khan,Alpha Mart,ALPHA MART,M001,Grocery,APAC,0,2499,210000,INR,Captured,Captured ,0,55,55,INVALID_OR_MISSING,,U002,Card
+T003,01-03-2026,01-03-2026,Rohan Mehta,Beta Stores,BETA STORES ,M002,Electronics,APAC,1,6069,510000,INR,Captured, CAPTURED,1,71,71,APAC, APAC ,U003,NetBanking
+T004,02-03-2026,02-03-2026,Rohan Mehta,Beta Stores,Beta  Stores,M002,Electronics,APAC,0,1904,160000,INR,Failed E05 Timeout, failed e05 timeout ,0,68,68,APAC,apac,U004,Card
+T005,02-03-2026,02-03-2026,Aisha Khan,Alpha Mart,Alpha Mart,M001,Grocery,APAC,0,4641,390000,INR,Captured, CAPTURED,0,58,58,INVALID_OR_MISSING,,U001,UPI
+T006,02-03-2026,02-03-2026,Rohan Mehta,Beta Stores,Beta  Stores,M002,Electronics,APAC,0,3272.5,275000,INR,Captured,Captured ,0,64,score:64,INVALID_OR_MISSING,,U005,Wallet
+T007,02-03-2026,02-03-2026,Aisha Khan,Alpha Mart,Alpha  Mart,M001,Grocery,APAC,1,5355,450000,INR,Chargeback,chargeback,1,83,risk-83,APAC, APAC ,U006,Card
+T008,03-03-2026,03-03-2026,Rohan Mehta,Beta Stores,BETA STORES ,M002,Electronics,APAC,0,4046,340000,INR,Captured,Captured ,0,59,59,INVALID_OR_MISSING,,U007,UPI
+T009,03-03-2026,03-03-2026,Aisha Khan,Alpha Mart,Alpha Mart,M001,Grocery,APAC,0,1487.5,125000,INR,Captured,captured,0,46,46,APAC,APAC,U002,Wallet
+T010,03-03-2026,03-03-2026,Rohan Mehta,Beta Stores,Beta Stores,M002,Electronics,APAC,0,7259,610000,INR,Captured,captured,1,77,risk-77,INVALID_OR_MISSING,,U003,Card
+T011,03-03-2026,03-03-2026,Aisha Khan,Alpha Mart,Alpha  Mart,M001,Grocery,APAC,0,2320.5,195000,INR,Failed E05 Timeout,FAILED e05 TIMEOUT,1,INVALID_OR_MISSING,,INVALID_OR_MISSING,,U008,UPI
+T012,04-03-2026,04-03-2026,Rohan Mehta,Beta Stores,Beta  Stores,M002,Electronics,APAC,0,2975,250000,INR,Captured,captured ,0,61,risk-61,APAC, APAC ,U009,Card
+T013,04-03-2026,04-03-2026,Aisha Khan,Alpha Mart, alpha mart ,M001,Grocery,APAC,0,3689,310000,INR,Captured,captured ,0,54,score:54,APAC,APAC,U010,UPI
+T014,04-03-2026,04-03-2026,Rohan Mehta,Beta Stores,Beta  Stores,M002,Electronics,APAC,1,5593,470000,INR,Captured,captured ,1,73,risk-73,APAC,APAC,U001,NetBanking
+T015,04-03-2026,04-03-2026,Aisha Khan,Alpha Mart,Alpha Mart,M001,Grocery,APAC,0,1547,130000,INR,Captured,captured,0,52,score:52,INVALID_OR_MISSING,,U002,Card
+T016,05-03-2026,05-03-2026,Rohan Mehta,Beta Stores,Beta  Stores,M002,Electronics,APAC,0,2618,220000,INR,Failed E05 Timeout,failed E05 timeout,0,69,risk-69,INVALID_OR_MISSING,,U008,Card
+T017,05-03-2026,05-03-2026,Rohan Mehta,Beta Stores,Beta  Stores,M002,Electronics,APAC,0,2142,180000,INR,Failed E05 Timeout,Failed E05 Timeout,1,72,score:72,APAC,apac,U008,Card
+T018,05-03-2026,05-03-2026,Rohan Mehta,Beta Stores,BETA STORES ,M002,Electronics,APAC,0,1725.5,145000,INR,Chargeback, chargeback ,1,86,risk-86,APAC, APAC ,U008,UPI
+T019,05-03-2026,05-03-2026,Aisha Khan,Alpha Mart,Alpha  Mart,M001,Grocery,APAC,0,3094,260000,INR,Failed E05 Timeout,Failed E05 Timeout,0,67,score:67,APAC,apac,U008,Wallet
+T020,05-03-2026,05-03-2026,Aisha Khan,Alpha Mart,Alpha Mart,M001,Grocery,APAC,1,6188,520000,INR,Captured,Captured ,1,75,75,APAC,APAC,U005,UPI
+T021,06-03-2026,06-03-2026,Rohan Mehta,Beta Stores, beta stores,M002,Electronics,APAC,0,3927,330000,INR,Captured,captured ,0,63,score:63,INVALID_OR_MISSING,,U006,Card
+T022,06-03-2026,06-03-2026,Aisha Khan,Alpha Mart,ALPHA MART,M001,Grocery,APAC,0,4879,410000,INR,Captured,captured ,0,60,60,APAC,APAC,U007,UPI
+T023,01-03-2026,01-03-2026,Elena Rossi,City Pharma,City Pharma,M003,Healthcare,EU,0,5616,5200,EUR,Captured,Captured ,0,42,42,EU, EU ,U003,Card
+T024,02-03-2026,02-03-2026,Nina Weber,Eco Home,Eco Home,M005,Home,EU,1,6588,6100,EUR,Chargeback, chargeback ,1,65,score:65,EU,EU,U004,Card
+T025,03-03-2026,03-03-2026,Elena Rossi,City Pharma,City Pharma,M003,Healthcare,EU,0,3024,2800,EUR,Captured,captured ,0,38,38,EU,eu,U005,Wallet
+T026,05-03-2026,05-03-2026,Nina Weber,Eco Home,Eco Home,M005,Home,EU,0,3564,3300,EUR,Failed E05 Timeout,Failed E05 Timeout,0,44,44,EU, EU ,U006,NetBanking
+T027,01-03-2026,01-03-2026,Marcus Lee,Delta Travels,DELTA TRAVELS,M004,Travel,US,1,7200,7200,USD,Captured,captured ,0,49,49,US,us,U007,Card
+T028,02-03-2026,02-03-2026,Marcus Lee,Delta Travels,Delta Travels,M004,Travel,US,0,3100,3100,USD,Captured, CAPTURED,0,41,risk-41,US,US,U008,Card
+T029,04-03-2026,04-03-2026,Marcus Lee,Delta Travels,delta travels ,M004,Travel,US,0,2500,2500,USD,Chargeback, chargeback ,1,58,score:58,US,US,U009,Wallet
+T030,06-03-2026,06-03-2026,Marcus Lee,Delta Travels,DELTA TRAVELS,M004,Travel,US,0,1800,1800,USD,Failed E05 Timeout,Failed E05 Timeout,0,47,score:47,US,US,U010,UPI

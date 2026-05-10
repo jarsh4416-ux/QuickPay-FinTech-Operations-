@@ -1,0 +1,7 @@
+transaction_id,transaction_date_ledger,merchant_id_ledger,amount_usd_ledger,status_ledger,payment_method_ledger,transaction_date_gateway,merchant_id_gateway,amount_usd_gateway,status_gateway,payment_method_gateway,_merge,amount_variance,is_discrepancy
+R002,2026-03-01,M002,850.0,success,Card,2026-03-01,M002,900.0,success,Card,both,-50.0,True
+R004,2026-03-02,M003,2100.0,success,Card,,,,,,left_only,,True
+R005,2026-03-03,M004,7200.0,success,Card,2026-03-03,M004,7200.0,failed,Card,both,0.0,True
+R008,2026-03-04,M001,640.0,success,Card,2026-03-04,M001,600.0,success,Card,both,40.0,True
+R010,2026-03-05,M004,2500.0,success,Wallet,,,,,,left_only,,True
+R011,,,,,,2026-03-05,M003,1800.0,success,Card,right_only,,True

@@ -1,0 +1,10 @@
+{
+    "Total Ledger Records": 10,
+    "Total Gateway Records": 9,
+    "Missing in Gateway (Count)": 2,
+    "Missing in Gateway (Value)": 4600.0,
+    "Missing in Ledger (Count)": 1,
+    "Missing in Ledger (Value)": 1800.0,
+    "Amount Mismatches": 2,
+    "Status Mismatches": 1
+}

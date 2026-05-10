@@ -1,0 +1,6 @@
+merchant_name_clean,total_transactions,avg_risk_score,high_risk_count,high_risk_percentage
+Alpha Mart,11,61.2,3,27.27
+Beta Stores,11,69.36,5,45.45
+City Pharma,2,40.0,0,0.0
+Delta Travels,4,48.75,1,25.0
+Eco Home,2,54.5,1,50.0
